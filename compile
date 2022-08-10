@@ -1,0 +1,56 @@
+#!/usr/bin/bash
+
+$1 > /dev/null 2>&1
+
+bug(){
+
+    echo " " 
+    
+    read -p $'Do you want to view it (y/n): ' error
+
+    if [[ $error == "Y" || $error == "y" ]]; then
+
+        echo " "
+        gcc $1 -o runs 
+        rm -rf run
+
+    elif [[ $error == 'n' || $error == 'N' ]]; then
+
+        echo " "
+        echo "Try debg yourself"
+        echo " "
+
+    else
+
+        echo " "
+        echo "INVALID INPUT, TRY AGAIN"
+        sleep 0.5
+        bug "$1"
+        echo " "
+                    
+    fi
+
+}
+
+if [ -f "$1" ]; then
+
+    echo " "
+    gcc $1 -o run > /dev/null 2>&1
+
+    if [[ $? -eq 0 ]]; then
+
+        ./run && echo " " && echo " "  && rm -rf run
+
+    else
+        echo "There is a bug"
+        bug "$1"
+
+    fi
+
+else
+
+    echo " "
+    echo "file or path is invalid"
+    echo " "
+
+fi
