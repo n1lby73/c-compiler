@@ -1,2 +1,2 @@
 # c-compiler
-compile your c and c++ program with one lin of code
+compile your c and c++ program with a single command
