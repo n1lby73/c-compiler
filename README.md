@@ -6,7 +6,7 @@ This is a custom script that helps automate that boring process of hitting your 
 
 And guess what !!!
 
-- you can invoke this script from any direectory your working on
+- you can invoke this script from any directory you're working on
 - you can define a path where your c or c++ program is
 
 ## Installation
