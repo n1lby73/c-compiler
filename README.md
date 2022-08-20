@@ -21,10 +21,20 @@ sudo bash install.sh
 ## Uninstall
 
 ```
-cd path/c-compiler //path denote where you directory where you downloaded script
+cd path/c-compiler
 sudo bash uninstall.sh
 ```
+### Note
 
+path denotes directory where scripts was cloned in 
+if you're unsure of the path, do this
+
+```
+rm -rf c-compiler
+git clone https://github.com/n1lby73/c-compiler
+cd c-compiler
+sudo bash uninstall.sh
+```
 ## Usage
 
 ```
