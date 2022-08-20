@@ -25,6 +25,6 @@ sudo bash uninstall.sh
 
 ## Usage
 
-'''
+```
 compile ...FILE / PATH...
-'''
+```
