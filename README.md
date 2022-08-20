@@ -4,4 +4,27 @@ compile your c and c++ program with a single command
 
 since you're here i assume that you are tired of compiling your codes with up to three lines of command before seeing an error or testing your program
 
-This is a custom script that helps automate that boring process of hitting your keyboard over and over again to do the same task and thus saves time 
+This is a custom script that helps automate that boring process of hitting your keyboard over and over again to do the same task and thus saves time. All with the help of the gcc program that comes pre-installed in all linux distro
+
+And guess what !!!
+
+- you can invoke this script from any direectory your working on
+- you can define a path where your c or c++ program is
+
+## Installation
+
+```
+git clone https://github.com/n1lby73/c-compiler
+sudo bash install.sh
+```
+## Uninstall
+
+```
+sudo bash uninstall.sh
+```
+
+## Usage
+
+'''
+compile ...FILE / PATH...
+'''
