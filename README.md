@@ -24,8 +24,8 @@ sudo bash uninstall.sh
 ```
 ### Note
 
-path denotes directory where scripts was cloned in 
-if you're unsure of the path, do this
+- Path denotes directory where scripts was cloned in 
+- If you're unsure of the path, do this
 
 ```
 rm -rf c-compiler
