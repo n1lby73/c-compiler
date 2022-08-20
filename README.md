@@ -15,11 +15,13 @@ And guess what !!!
 
 ```
 git clone https://github.com/n1lby73/c-compiler
+cd c-compiler
 sudo bash install.sh
 ```
 ## Uninstall
 
 ```
+cd path/c-compiler //path denote where you directory where you downloaded script
 sudo bash uninstall.sh
 ```
 
@@ -28,3 +30,13 @@ sudo bash uninstall.sh
 ```
 compile ...FILE / PATH...
 ```
+
+## Support and bug reporting
+- Report found bugs [here](https://github.com/n1lby73/c-compiler/issues)
+- Contributions, issues, and feature requests are welcome!
+- Feel free to make PR
+- Give a ★ if you like this project!
+
+## License
+
+[GNU V3](https://github.com/n1lby73/remote-shutdown/blob/main/LICENSE)
