@@ -47,4 +47,4 @@ compile ...FILE / PATH...
 
 ## License
 
-[GNU V3](https://github.com/n1lby73/remote-shutdown/blob/main/LICENSE)
+[GNU V3](https://github.com/n1lby73/c-compiler/blob/main/LICENSE)
